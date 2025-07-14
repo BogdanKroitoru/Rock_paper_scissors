@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title>Камінь, Ножиці, Папір</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h2>Гра Камінь, Ножиці, Папір</h2>
+			</header>
+			<div class="main">
+<!--- Вибір гравця --->
+				<div class="main__choice-block">
+					<h3 class="main__title">Ваш вибір</h3>
+					<div class="main__choice-blocks">
+						<div class="main__choose-block" id="players-rock-block">
+							<p>Камінь</p>
+							<button id="rock">Вибрати</button>
+						</div>
+						<div class="main__choose-block" id="players-scissors-block">
+							<p>Ножиці</p>
+							<button id="scissors">Вибрати</button>
+						</div>
+						<div class="main__choose-block" id="players-paper-block">
+							<p>Папір</p>
+							<button id="paper">Вибрати</button>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar">
+					<p>Ви: <span class="sidebar__your-score">0</span></p>
+					<p>Комп'ютер: <span class="sidebar__computer-score">0</span></p>
+				</div>
+<!--- Вибір комп'ютера --->
+				<div class="main__choice-block">
+					<h3 class="main__title">Вибір комп'ютера</h3>
+					<div class="main__choice-blocks">
+						<div class="main__choose-block" id="computers-rock-block">
+							<p>Камінь</p>
+						</div>
+						<div class="main__choose-block" id="computers-scissors-block">
+							<p>Ножиці</p>
+						</div>
+						<div class="main__choose-block" id="computers-paper-block">
+							<p>Папір</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__footer">
+				<h3 class="main__title">Натисніть, щоб почати гру</h3>
+				<button id="main__button">Старт</button>
+				<h2 class="result result_player-victory">Ви виграли</h2>
+				<h2 class="result result_computer-victory">Ви програли</h2>
+				<h2 class="result result_none_victory">Нічия</h2>
+				<h2 class="result result_undefined">Предмет не вибрано</h2>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

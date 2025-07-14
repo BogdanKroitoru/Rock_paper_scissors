@@ -1,0 +1,98 @@
+
+
+body {
+	user-select: none;
+}
+
+/*Header*/
+header {
+   font-family: sans-serif;
+   text-align: center;
+}
+/*Sidebar*/
+.sidebar {
+	border: black solid 3px;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	font-family: sans-serif;
+}
+/*Main*/
+.main {
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+}
+
+.main__title {
+   font-family: sans-serif;
+   text-align: center;
+}
+
+.main__choice-block {
+   	font-family: sans-serif;
+	border: black solid 3px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 450px;
+	height: 400px;
+}
+
+.main__choice-blocks {
+	display: flex;
+}
+
+.block_item {
+	border: black solid 2px;
+	margin: 30px;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+/*Choice Blocks*/
+
+.choosed {
+	border: blue solid 2px;
+	margin: 30px;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.main__choose-block {
+	border: black solid 2px;
+	margin: 30px;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+/*Results*/
+.main__footer {
+	font-family: sans-serif;
+	text-align: center;
+}
+.result {
+	color: blue;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.result_player-victory {
+	display: none;	
+}
+
+.result_computer-victory {
+	display: none;	
+}
+
+.result_none_victory {
+	display: none;	
+}
+
+.result_undefined {
+	display: none;
+}
